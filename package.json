@@ -1,6 +1,6 @@
 {
   "name": "@aidpproject/aidpcoin-jswallet",
-  "version": "0.10.4",
+  "version": "0.10.5",
   "description": "Aidpcoin JavaScript wallet library",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
