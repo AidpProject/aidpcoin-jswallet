@@ -157,7 +157,7 @@ export class Wallet {
     }
   }
   async hasHistory(addresses: Array<string>): Promise<boolean> {
-    const includeAssets = true;
+    const includeAssets = false;
     const obj = {
       addresses,
     };
@@ -250,7 +250,7 @@ export class Wallet {
   }
   async getMempool(): Promise<IMempoolEntry[]> {
     const method = methods.getaddressmempool;
-    const includeAssets = true;
+    const includeAssets = false;
     const params = [{ addresses: this.getAddresses() }, includeAssets];
     return this.rpc(method, params) as Promise<IMempoolEntry[]>;
   }
