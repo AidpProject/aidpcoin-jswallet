@@ -96,7 +96,7 @@ it("Forced UTXOs must be part of transaction", async () => {
   const diff = value - (fee + change);
 
   //TO make sure we have consumed the forced UTXO
-  //The diff between inputs and outputs should be less than 1 RVN
+  //The diff between inputs and outputs should be less than 1 AIDP
   expect(diff).to.be.lessThan(1);
   return true;
 });

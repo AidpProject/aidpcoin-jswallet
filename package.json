@@ -1,6 +1,6 @@
 {
   "name": "@aidpproject/aidpcoin-jswallet",
-  "version": "0.10.5",
+  "version": "0.10.6",
   "description": "Aidpcoin JavaScript wallet library",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
@@ -29,9 +29,9 @@
     "url": "https://github.com/aidpproject/aidpcoin-jswallet/issues"
   },
   "dependencies": {
-    "@aidpproject/aidpcoin-key": "^2.8.4",
+    "@aidpproject/aidpcoin-key": "^2.8.6",
     "@aidpproject/aidpcoin-rpc": "^0.4.0",
-    "@aidpproject/aidpcoin-sign-transaction": "^0.2.16"
+    "@aidpproject/aidpcoin-sign-transaction": "^0.2.17"
   },
   "homepage": "https://github.com/aidpproject/aidpcoin-jswallet#readme",
   "devDependencies": {
