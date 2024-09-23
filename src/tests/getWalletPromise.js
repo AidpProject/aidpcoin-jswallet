@@ -1,6 +1,6 @@
 const AidpcoinWallet = require("../../dist/index.cjs");
 
-//Account "Crazy Cat" on https://testnet.ting.finance/
+//Account "Crazy Cat" on https://testnet.ai-depin.org/
 const mnemonic =
   "mesh beef tuition ensure apart picture rabbit tomato ancient someone alter embrace";
 

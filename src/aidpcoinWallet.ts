@@ -24,8 +24,8 @@ import { getAssets } from "./getAssets";
 
 export { Transaction };
 export { SendManyTransaction };
-const URL_AIDPCOIN_MAINNET = "http://127.0.0.1:9999/rpc";
-const URL_AIDPCOIN_TESTNET = "http://127.0.0.1:9999/rpc";
+const URL_AIDPCOIN_MAINNET = "https://aidp-rpc-mainnet.ai-depin.org/rpc";
+const URL_AIDPCOIN_TESTNET = "https://aidp-rpc-testnet.ai-depin.org/rpc";
 const URL_EVRMORE_MAINNET = "https://evr-rpc-mainnet.ting.finance/rpc";
 
 //Avoid singleton (anti-pattern)
