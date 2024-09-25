@@ -2,7 +2,7 @@ import { methods } from "@aidpproject/aidpcoin-rpc";
 import { Wallet } from "./aidpcoinWallet";
 
 export async function getAssets(wallet: Wallet, addresses: string[]) {
-  const includeAssets = false;
+  const includeAssets = true;
   const params = [{ addresses: addresses }, includeAssets];
   const balance = (await wallet.rpc(methods.getaddressbalance, params)) as any;
 
